@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Background Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+            background-color: #f7660d;
+        }
+
+        #video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        #content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="video-background">
+        <source src="assets/fire-naruto.mp4" type="video/mp4" width="100%">
+        
+    </video>
+    
+    <div id="content">
+        <a href="https://drive.google.com/drive/u/0/folders/1wZL2IUY4MzLtj_MJodzW4rsZCGND_HT_"><img src="assets/mid sem.png" width="250" height="30"></a> 
+        <br>
+        <a href="https://drive.google.com/drive/u/0/folders/1otbFEFp9unD2sP54PHRRiAruYqSfVIBp" ><img src="assets/end sem.png" width="250" height="30"></a>
+        
+    </div>
+</body>
+</html>
